@@ -13,8 +13,8 @@ Clone the repo:
 - ```git clone https://github.com/meerkatone/Binary-Ninja-to-Gephi-Plugin.git ```
 
 Create a folder named gephi_callgraph_exporter in your Binary Ninja plugins directory:
-- Linux: ~/.binaryninja/plugins/\
-- macOS: ~/Library/Application Support/Binary Ninja/plugins/\
+- Linux: ~/.binaryninja/plugins/
+- macOS: ~/Library/Application Support/Binary Ninja/plugins/
 - Windows: %APPDATA%\Binary Ninja\plugins\
 
 - Copy all the files from this repository into the folder you created
@@ -25,10 +25,10 @@ This plugin requires the NetworkX library. You can install it in Binary Ninja's 
 - ```pip install networkx```
 
 ## Usage
-- Open a binary file in Binary Ninja\
-- After analysis completes, go to Tools > Export Call Graph to Gephi\
-- Choose a file location to save the GEXF file\
-- Open the saved GEXF file in Gephi for visualization and analysis\
+- Open a binary file in Binary Ninja
+- After analysis completes, go to Tools > Export Call Graph to Gephi
+- Choose a file location to save the GEXF file
+- Open the saved GEXF file in Gephi for visualization and analysis
 
 ## Visualizing in Gephi
 - Download and install Gephi if you haven't already
