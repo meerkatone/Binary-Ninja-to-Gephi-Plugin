@@ -1,4 +1,4 @@
-# Gephi Callgraph Exporter
+# Binary-Ninja-to-Gephi-Plugin
 
 A Binary Ninja plugin that exports the call graph of a binary to a GEXF file for visualization in Gephi.
 
@@ -49,6 +49,3 @@ pip install networkx
 4. Use Gephi's layout algorithms (e.g., ForceAtlas2) to arrange the nodes
 5. Use the appearance panel to color or size nodes based on attributes such as function size or instruction count
 
-## License
-
-This plugin is released under the MIT License. See the LICENSE file for details.
