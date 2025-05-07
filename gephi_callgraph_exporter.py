@@ -55,6 +55,6 @@ def export_callgraph_for_gephi(bv):
 # Register the plugin command in the tools menu
 PluginCommand.register(
     "Export Call Graph to Gephi",
-    "Exports the current binary's call graph to a GEXF file for visualization in Gephi",
+    "Exports the current binary's call graph to a GEXF file for visualisation in Gephi",
     export_callgraph_for_gephi
 )

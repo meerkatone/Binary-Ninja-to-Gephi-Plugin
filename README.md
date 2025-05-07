@@ -1,12 +1,12 @@
 # Binary-Ninja-to-Gephi-Plugin
 
-A Binary Ninja plugin that exports the call graph of a binary to a GEXF file for visualization in Gephi.
+A Binary Ninja plugin that exports the call graph of a binary to a GEXF file for visualisation in Gephi.
 
 ## Features
 
 - Exports the complete call graph from a Binary Ninja analysis
 - Includes function names, addresses, sizes, and instruction counts as node attributes
-- Outputs in GEXF format, compatible with Gephi visualization software
+- Outputs in GEXF format, compatible with Gephi visualisation software
 - Integrated into Binary Ninja's UI with a simple tools menu option
 
 ## Installation
@@ -39,7 +39,7 @@ pip install networkx
 1. Open a binary file in Binary Ninja
 2. After analysis completes, go to `Tools > Export Call Graph to Gephi`
 3. Choose a file location to save the GEXF file
-4. Open the saved GEXF file in Gephi for visualization and analysis
+4. Open the saved GEXF file in Gephi for visualisation and analysis
 
 ## Visualizing in Gephi
 
